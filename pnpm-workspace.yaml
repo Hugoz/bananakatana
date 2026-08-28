@@ -1,0 +1,14 @@
+supportedArchitectures:
+  os:
+    - win32
+  cpu:
+    - x64
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+allowBuilds:
+  esbuild: set this to true or false
+  sharp: set this to true or false
+  unrs-resolver: set this to true or false
+  workerd: set this to true or false
